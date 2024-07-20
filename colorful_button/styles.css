@@ -1,0 +1,65 @@
+:root {
+    --font-family: 'Karla', sans-serif;
+    --body-bg: #1E1F25;
+    --btn-bg: #000;
+    --btn-color: #cbcbcb;
+    --btn-color-hover: #fff;
+    --grad-color1: #eeaf61; 
+    --grad-color2: #fb9062;
+    --grad-color3: #ee5d6c;
+    --grad-color4: #ce4993;
+    --grad-color5: #6a0d83;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--font-family);
+}
+
+#container {
+    /* height: 60px;
+    width: 200px; */
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(230deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+    padding: 0px;
+    transition: 0.1s;
+    border: none;
+}
+
+#start-btn {
+    font-family: inherit;
+    /* width: 98%;
+    height: 95%; */
+    border: none;
+    border-radius: 3px;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    padding: 1.5em 2.5em;
+    margin: 2px;
+}
+
+#container:hover {
+    /* height: 63px;
+    width: 205px; */
+    background: linear-gradient(115deg, #eeaf61, #fb9062, #ee5d6c, #ce4993, #6a0d83);
+}
+
+
+#start-btn:hover {
+    color: var(--btn-color-hover);
+    padding: 1.4em 2.4em;
+    margin: 3px;
+    
+}
